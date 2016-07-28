@@ -8,4 +8,5 @@ in /etc/puppetlabs/puppet/auth.conf (for puppetserver <2.2.0) or
 /etc/puppetlabs/puppetserver/conf.d/auth.conf (for puppetserver >2.2.0)
 for /puppet/v3/node([^/]+)$ and amending the allow line to inlude an
 array.  For >2.2.0 this looks like:
+
             "allow" : ["$1","centos6a.pdx.puppet.vm"],
